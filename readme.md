@@ -12,12 +12,13 @@ https://github.com/max32002/swei-spring
 
 此模板基本上在武汉大学的模板改动了包括：
 1. 修改校标、配色，使其符合重庆大学vis标准（https://office.cqu.edu.cn/info/1021/1995.htm）；
-
+2. 修改字体，原字体逗号会漂浮在空中；
+3. 结合个人经历特点选择了导师最关心的几个方面构建个人简历模板；
 
 ### 三、使用方法
 使用XeLaTeX编译。建议上传Overleaf云端或使用texstudio本地编译。
 
-#### 四、其他注意事项
+### 四、其他注意事项
 1. 所有以\fa开头的都是font awesome宏包里的logo。详细信息参考：
 https://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
 2. 如何修改栏目名称？以个人信息为例。
@@ -25,3 +26,4 @@ https://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
 \section{\makebox[\widthof{\faAddressCard}][c]{\color{WHU_Blue}{\faAddressCard}}\quad 个人信息}
 \faAddressCard为图标，前面有人提到。个人信息即章节名。其他如无必要可以不用管。
 3. 我注释掉了一些我用不到的东西。如果你觉得有用，可以选中后按ctrl+/取消注释。
+
