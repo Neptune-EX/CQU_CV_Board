@@ -54,14 +54,20 @@
   []
 \titlespacing*{\subsection}{0cm}{*1.2}{*1.2}% 二级标题左边留白，上方1.2倍，下方1.2倍
 % 页面大小与页边距，按需求调整
-\usepackage[
-	a4paper,
-	left=1.2cm,
-	right=1.2cm,
-	top=1.5cm,
-	bottom=1cm,
-	nohead
-]{geometry}
+\usepackage[top=2cm,     % 上边距（为页眉留出空间）
+			bottom=1.5cm,  % 下边距（为页脚留出空间）
+			left=1.2cm, 
+			right=1.2cm]{geometry}
+
+%\usepackage[
+%	a4paper,
+%	left=1.2cm,
+%	right=1.2cm,
+%	top=1.5cm,
+%	bottom=1cm,
+%	nohead
+%]{geometry}
+
 % 这里把表格的行间距调成1.2倍了
 \renewcommand{\arraystretch}{1.2}
 % 这里把正文的行间距调成1.2倍了
