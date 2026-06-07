@@ -1,4 +1,4 @@
-## Made by Github：@Neptune_EX(https://github.com/Neptune-EX)，重庆大学弘深学院2023级学生
+## Made by Github：@Neptune_EX 重庆大学弘深学院2023级计算机科学与技术学生 (https://github.com/Neptune-EX)，
 
 ### 一、版权与字体
 本模板使用的字体为开源字体狮尾四季春，详见
